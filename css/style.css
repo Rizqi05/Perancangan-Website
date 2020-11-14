@@ -1,0 +1,160 @@
+*{
+    margin: 0px;
+}
+.font{
+    display: flex;
+    text-decoration: none;
+    font-style: none;
+    font-size: 20px;
+    float: right;
+    padding: 50px 20px;
+    color: black;
+    margin-right: 50px;
+}
+a :hover{
+    color: black;
+    background-color: maroon;
+}
+.daftar{
+	width: 380px;
+	height: 500px;
+	background: rgba(0,0,0,0.5);
+	color: white;
+	top: 30%;
+    left: 35%;
+    position: absolute;
+	box-sizing: border-box;
+	padding: 50px;
+}
+.daftar input{
+	width: 100%;
+	margin-bottom: 20px;
+}
+.daftar input[type="text"], input[type="password"]{
+	border: none;
+	border-bottom: 2px solid white;
+	background: transparent;
+	outline: none;
+	height: 18px;
+	color: white;
+	font-size: 18px;
+}
+.daftar input[type="submit"]{
+	border: none;
+	height: 40px;
+	color: white;
+	font-size: 18px;
+	border-radius: 20px;
+	background: pink;
+}
+.daftar input[type="submit"]:hover{
+	background: maroon;
+}
+.daftar a{
+	text-decoration: none;
+	color: white;
+}
+.daftar a:hover{
+	color: maroon;
+}
+
+body{
+    background-image: url(../bg.jpg);
+    background-size: cover;
+    height: 100%;
+    background-repeat: no-repeat;
+}
+.header-logo1{
+    padding: 40px 50px;  
+}
+.background-header{
+    background-color: pink;
+    border-radius: 20px;
+}
+.btn-login{
+    border-radius: 32px;
+    background-color: maroon;
+    color: white;
+    border: none;
+}
+.btn-login :hover{
+    background-color: pink;
+    color: black;
+}
+.btn-navigasi{
+    border-radius: 45px;
+    background-color: maroon;
+    color: white;
+    border: none;
+}
+.btn-navigasi:hover{
+    color: black;
+    background-color: pink;
+}
+.container {
+    padding: 50px 120px;
+    margin-left: 100px;
+    border-radius: 5%;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+.img{
+    float: right;
+    padding: 50px;
+}
+.tulisan{
+    padding: 50px;
+    color: white;
+}
+.tulisan-footer h1{
+    margin-left: 50px;
+}
+.option{
+    display: flex;
+    flex-direction: column;
+    font-size: 30px;
+    padding: 50px;
+    color: white;
+}
+.option button {
+    background-color: pink;
+    border: none;
+    color: white;
+    padding: 16px 32px;
+    text-align: center;
+    font-size: 16px;
+    margin: 6px;
+    cursor: pointer;
+}
+.option button {
+    background-color: pink; 
+    color: black; 
+    border: pink;
+  }
+.option button:hover {
+    background-color: maroon;
+    color: white;
+  }  
+.font{
+    height: 30px;  
+}
+.tulisan1 {
+    text-align: center;
+    color: white;
+    background-color: maroon;
+    border-radius: 20px;
+    font-size: 12px;
+    width: 400px;
+    border: none;
+    margin: 8px;
+    padding: 5px 10px;
+}
+.container p {
+    text-align: center;
+    font-weight: bolder;
+}
+.container a {
+    margin-bottom: 30px;
+}
